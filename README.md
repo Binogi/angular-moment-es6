@@ -10,16 +10,16 @@ Install the angular-moment-es6 package
 
 ```sh
 # with yarn
-yarn add @binogi/angular-moment-es6
+yarn add @binogi/es6-angular-moment
 
 # with npm
-npm install @binogi/angular-moment-es6 --save
+npm install @binogi/es6-angular-moment --save
 ```
 
 Add the module `angularMoment` as a dependency to your app module:
 
 ```js
-import angularMoment from '@binogi/angular-moment-es6'
+import angularMoment from '@binogi/es6-angular-moment'
 
 const myapp = angular.module('myapp', [angularMoment]);
 ```

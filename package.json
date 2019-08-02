@@ -1,5 +1,5 @@
 {
-    "name": "@binogi/angular-moment-es6",
+    "name": "@binogi/es6-angular-moment",
     "version": "1.0.0",
     "description": "ES6 version of angular-moment package",
     "main": "angular-moment.js",
@@ -8,6 +8,10 @@
     },
     "author": "",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Binogi/angular-moment-es6.git"
+    },
     "dependencies": {
       "moment": "^2.24.0"
     }
