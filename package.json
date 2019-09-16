@@ -1,10 +1,11 @@
 {
     "name": "@binogi/es6-angular-moment",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "ES6 version of angular-moment package",
-    "main": "angular-moment.js",
+    "main": "dist/angular-moment.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "build": "babel -d dist/ src/",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
     "license": "MIT",
@@ -14,5 +15,12 @@
     },
     "dependencies": {
       "moment": "^2.24.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.4.4",
+        "@babel/core": "^7.4.5",
+        "@babel/node": "^7.4.5",
+        "@babel/plugin-transform-runtime": "^7.4.4",
+        "@babel/preset-env": "^7.4.5"
     }
 }
